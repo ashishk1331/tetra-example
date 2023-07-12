@@ -10,12 +10,10 @@ The template is made upon [Nextjs](https://nextjs.org/) and [Tailwind typography
     ```bash
     git clone https://github.com/ashishk1331/tetra-example.git
     ```
-    <br>
 1.  Initialize all packages
     ```bash
     npm install
     ```
-    <br>
 1.  Get your integration token from [notion developers](https://www.notion.so/my-integrations) dashboard.
     <br>
 1.  Copy the Page ID of the notion page you want to render, from the share option at the top right corner.
@@ -28,10 +26,8 @@ The template is made upon [Nextjs](https://nextjs.org/) and [Tailwind typography
     NOTION_TOKEN = <NOTION_INTEGRATION_TOKEN>
     NOTION_PAGE_ID = <NOTION_PAGE_ID>
     ```
-    <br>
 1.  Start the development server
 
     ```bash
     npm run dev
     ```
-    <br>

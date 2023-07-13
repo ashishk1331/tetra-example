@@ -1,4 +1,4 @@
-![Banner Image](./public/banner.png)
+![Banner Image](https://raw.githubusercontent.com/ashishk1331/tetra-example/main/public/banner.png)
 <br><br>
 ## Starter template for Tetra Pack
 

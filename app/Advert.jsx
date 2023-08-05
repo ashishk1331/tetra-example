@@ -36,7 +36,7 @@ export default function (props) {
 			</p>
 			<ul className="marker:text-teal-300">
 				<li>
-					<a href="#">Docs are listed here.</a>
+					<a href="https://tetra-docs.vercel.app/">Docs are listed here.</a>
 				</li>
 				<li>
 					<a href="https://github.com/ashishk1331/tetrapack">

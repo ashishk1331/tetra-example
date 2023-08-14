@@ -7,12 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      typography: ({ theme }) => ({
+        DEFAULT: {
+          css: {
+            "--tw-prose-quote-borders": theme("colors.teal[300]"),
+            "--tw-prose-hr": theme("colors.teal[300]"),
+            "--tw-prose-invert-quote-borders": theme("colors.teal[300]"),
+            "--tw-prose-invert-hr": theme("colors.teal[300]"),
+          },
+        },
+      }),
+      colors: {
+        secondary: "#191825",
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
